@@ -183,7 +183,7 @@
     ]
   },
   "codegenConfig": {
-    "name": "RNRNPedometerSpec",
+    "name": "RNPedometerSpec",
     "type": "modules",
     "jsSrcsDir": "src",
     "outputDir": {
