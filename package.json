@@ -1,5 +1,5 @@
 {
-  "name": "rnpedometer",
+  "name": "@mmeow223/rnpedometer",
   "version": "0.1.0",
   "description": "Pedometer package",
   "source": "./src/index.tsx",
@@ -110,6 +110,9 @@
     ]
   },
   "release-it": {
+    "npm": {
+      "publish": true
+    },
     "git": {
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
@@ -233,4 +236,3 @@
     "version": "0.48.1"
   }
 }
-
