@@ -72,6 +72,7 @@
     "@types/jest": "^29.5.5",
     "@types/react": "^18.2.44",
     "commitlint": "^17.0.2",
+    "conventional-changelog-angular": "^8.0.0",
     "del-cli": "^5.1.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
@@ -113,16 +114,45 @@
       "commitMessage": "chore: release ${version}",
       "tagName": "v${version}"
     },
-    "npm": {
-      "publish": true
-    },
-    "github": {
-      "release": true
-    },
     "plugins": {
       "@release-it/conventional-changelog": {
+        "infile": "CHANGELOG.md",
         "preset": {
-          "name": "angular"
+          "name": "angular",
+          "types": [
+            {
+              "type": "feat",
+              "section": "Features"
+            },
+            {
+              "type": "fix",
+              "section": "Bug Fixes"
+            },
+            {
+              "type": "chore",
+              "hidden": true
+            },
+            {
+              "type": "docs",
+              "hidden": true
+            },
+            {
+              "type": "style",
+              "hidden": true
+            },
+            {
+              "type": "refactor",
+              "hidden": true
+            },
+            {
+              "type": "perf",
+              "hidden": true
+            },
+            {
+              "type": "test",
+              "hidden": true
+            }
+          ]
         }
       }
     }
