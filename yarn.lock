@@ -1641,8 +1641,10 @@
     invariant "^2.2.4"
     nullthrows "^1.1.1"
 
-"@release-it/conventional-changelog@^9.0.2":
+"@release-it/conventional-changelog@^9.0.4":
   version "9.0.4"
+  resolved "https://registry.npmjs.org/@release-it/conventional-changelog/-/conventional-changelog-9.0.4.tgz"
+  integrity sha512-eSZVATX2qiyxzpXdIVNczxTGR+uD4lG/ZEfDDYBJ8vKIj6fKp+eYicIS8Ff/eL3bA9XiQTmllKqxPRzmz9d45w==
   dependencies:
     concat-stream "^2.0.0"
     conventional-changelog "^6.0.0"
