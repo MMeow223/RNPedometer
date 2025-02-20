@@ -14,7 +14,7 @@ import {
   addStepCountListener,
   removeStepCountListener,
   type StepCountData,
-} from 'rnpedometer';
+} from '@mmeow223/rnpedometer';
 
 export default function App() {
   const [isAvailable, setIsAvailable] = useState(false);

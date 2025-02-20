@@ -2,7 +2,7 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "rnpedometer": ["./src/index"]
+      "@mmeow223/rnpedometer": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
