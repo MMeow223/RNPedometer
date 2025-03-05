@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Text,
   View,
@@ -14,7 +14,7 @@ import {
   addStepCountListener,
   removeStepCountListener,
   type StepCountData,
-} from 'rnpedometer';
+} from '@mmeow223/rnpedometer';
 
 export default function App() {
   const [isAvailable, setIsAvailable] = useState(false);
@@ -36,7 +36,7 @@ export default function App() {
         stopTracking();
       }
     };
-  }, []);
+  }, [isTracking]);
 
   const requestPermissions = async () => {
     try {

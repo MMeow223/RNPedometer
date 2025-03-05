@@ -1,5 +1,8 @@
-import { NativeEventEmitter } from 'react-native';
-import RNPedometer, { type StepCountData } from './NativeRNPedometer';
+import { NativeEventEmitter, NativeModules } from 'react-native';
+import type { StepCountData } from './NativeRNPedometer';
+
+// Get the native module directly from NativeModules
+const RNPedometer = NativeModules.RNPedometer;
 
 // Create event emitter for step counter updates
 const eventEmitter = new NativeEventEmitter(RNPedometer);
