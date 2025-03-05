@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import {
   Text,
   View,
@@ -36,7 +36,7 @@ export default function App() {
         stopTracking();
       }
     };
-  }, []);
+  }, [isTracking]);
 
   const requestPermissions = async () => {
     try {

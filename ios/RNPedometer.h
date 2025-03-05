@@ -1,6 +1,5 @@
+#import <React/RCTEventEmitter.h>
+#import <RNPedometer/RNPedometerSpec.h>
 
-#import "generated/RNRNPedometerSpec/RNRNPedometerSpec.h"
-
-@interface RNPedometer : NSObject <NativeRNPedometerSpec>
-
+@interface RNPedometer : RCTEventEmitter <NativeRNPedometerSpec>
 @end
