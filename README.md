@@ -2,9 +2,7 @@
 
 ## React Native Pedometer
 
-`@mmeow223/rnpedometer` is a React Native module that provides access to the pedometer of a mobile device, allowing you to listen for step count updates in real-time.
-
-⚠ **iOS Implementation Not Available Yet** Currently, this package only supports Android. iOS support is not implemented yet. Contributions are welcome!
+`@mmeow223/rnpedometer` is a React Native module that provides access to the pedometer of a mobile device, allowing you to listen for step count updates in real-time
 
 ## Features
 
@@ -178,4 +176,3 @@ Removes all registered step count listeners.
 ## License
 
 MIT
-
